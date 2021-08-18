@@ -1266,6 +1266,8 @@ class SBGNBase(GeneratedsSuper):
             obj_.build(child_, gds_collector_=gds_collector_)
             self.extension = obj_
             obj_.original_tagname_ = 'extension'
+    def write_file(self, *args, **kwargs):
+        self.export(*args, **kwargs)
 # end class SBGNBase
 
 
