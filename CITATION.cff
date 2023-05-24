@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: pysbgn
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Vid
+    family-names: Podpečan
+    email: vid.podpecan@ijs.si
+    affiliation: Jožef Stefan Institute
+    orcid: 'https://orcid.org/0000-0002-7314-4529'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7966410
+    description: Zenodo DOI
+repository-code: 'https://github.com/vpodpecan/pysbgn'
+url: 'https://github.com/vpodpecan/pysbgn#readme'
+abstract: >-
+  This package provides support for writing and reading
+  SBGN-ML v0.3 files. The code is auto-generated using
+  generateDS with a few code fixes and modifications making
+  it compatible with libsbgn-python (which supports only
+  SBGN-ML v0.2).
+keywords:
+  - SBGN-ML
+license: MIT
+commit: 4e09c7b
+version: 0.2.1
